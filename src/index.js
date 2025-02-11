@@ -7,7 +7,6 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const basename = "/Portfolio";
 root.render(
   <React.StrictMode>
     <BrowserRouter basename="/Portfolio">   {/* Apply basename here */}
